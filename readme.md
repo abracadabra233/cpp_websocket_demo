@@ -1,4 +1,7 @@
 ```sh
+sudo apt update
+sudo apt install git build-essential libboost-system-dev libboost-thread-dev
+
 git clone --depth 1 --branch main https://github.com/zaphoyd/websocketpp.git
 git clone --depth 1 --branch develop https://github.com/nlohmann/json.git
 
